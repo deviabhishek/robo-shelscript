@@ -5,7 +5,6 @@ sudo systemctl start nginx
 sudo systemctl status nginx
 sudo yum install firewalld
 sudo systemctl enable firewalld
-sudo reboot
 sudo firewall-cmd --zone=public --permanent --add-service=http
 sudo firewall-cmd --zone=public --permanent --add-service=https
 firewall-cmd --reload
