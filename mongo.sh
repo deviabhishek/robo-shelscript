@@ -6,8 +6,8 @@ echo status - $?
 
 echo "install mongo DB service"
 yum install -y mongodb-org &>>$LOG_FILE
-systemctl enable mongod &>>$?
-systemctl start mongod &>>$?
+systemctl enable mongod &>>$LOG_FILE
+systemctl start mongod &>>$LOG_FILE
 echo status - $?
 
 
