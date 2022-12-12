@@ -1,4 +1,4 @@
-LOG_FILE =/tmp/mongodb
+LOG_FILE=/tmp/mongodb
 
 echo "setting mongo Db Repo"
 curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/roboshop-devops-project/mongodb/main/mongo.repo &>>$LOG_FILE
