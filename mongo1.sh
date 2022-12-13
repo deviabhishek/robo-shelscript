@@ -6,3 +6,7 @@ echo status = $?
 
 yum install -y mongodb-org-4.2.repo
 echo status = $?
+
+systemctl enable mongod
+systemctl start mongod
+
